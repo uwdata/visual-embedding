@@ -36,7 +36,7 @@ present in the data domain. A function meeting this criterion constitutes a visu
 the data points (see Figure 1).
 
 <figure>
-<img width="400" src="https://raw.githubusercontent.com/uwdata/visual-embedding/master/figures/f.svg?raw=true"
+<img width="400" src=https://raw.githubusercontent.com/uwdata/visual-embedding/master/figures/f.svg>
 <figcaption>Figure 1</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ quantified the similarity of two given neural pathways’ trajectories. We then 
 by embedding the distances  in the CIELAB color space using multidimensional scaling. Figure 2 shows the obtained
 colorings; perceptual variations in color reflect the spatial variations in the tracts.
 <figure>
-<img width="400" src="figures/t.png">
+<img width="600" src="figures/t.png">
 <figcaption>Figure 2</figcaption>
 </figure>
 
@@ -166,7 +166,7 @@ alternative glyphs used in visualizing second-order
 diffusion tensors (Figure 7).
 
 <figure>
-<img src=figures/ga.png>
+<img width=600 src=figures/ga.png>
 <figcaption>Figure 7</figcaption>
 </figure>
 
@@ -194,7 +194,7 @@ cuboids. This supports the visualization design
 choice motivating superquadrics.
 
 <figure>
-<img src=figures/gb.svg>
+<img width=500 src="figures/gb.svg">
 <figcaption>Figure 8</figcaption>
 </figure>
 

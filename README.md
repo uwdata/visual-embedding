@@ -6,9 +6,9 @@ proposal] (http://hci.stanford.edu/~cagatay/projects/vismodel/TheoriesOfVisualiz
 at Vis'11).  We use this repository to share data and source code for visual embedding examples.
 
 In the paper, we provide three examples of visual embedding. You can reach the source code  used to generate
-these examples under src/ directory.  In order to demonstrate discrete visual embedding, we crowdsource perceptual
+these examples under [src/](src/) directory.  In order to demonstrate discrete visual embedding, we crowdsource perceptual
 distances using Amazon's Mechanical Turk service.  You can access the data and source code for the experiment under
-src/mturk  directory. Note that we extend upon this idea, the  idea of estimating kernels of perceptual similarity
+[src/mturkExperiments](src/mturkExperiments)  directory. Note that we extend upon this idea, the  idea of estimating kernels of perceptual similarity
 with crowdsourcing, in our more [recent paper](http://idl.cs.washington.edu/papers/perceptual-kernels/).
 
 
@@ -52,9 +52,9 @@ is, however,  that degrees of perceptual affinities between and within visual en
 
 Visualizations Beyond Visual Encoding
 -------------------------------------
-Orthodoxy of any kind has a paralyzing effect, quickly turning any--intellectual--landscape
+Orthodoxy of any kind has a paralyzing effect, quickly turning any-intellectual-landscape
 into a desert of new ideas. Data visualization is, more than anything else, a user experience
-production and, as such, eventually needs to embrace and utilize human sensing  capacities fully.
+production and, as such, eventually needs to embrace and utilize human sensing capacities fully.
 
 Embedding spaces, as discussed here,  needn’t be restricted to visual stimuli. They could be any perceptual
 channel or combinations  thereof, such as color, texture, shape, icon, tactile, and audio features. For example,

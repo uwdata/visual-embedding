@@ -40,7 +40,7 @@ the data points (see Figure 1).
 
 ![](figures/f.svg?raw=true)
 
-<img width="400" src=https://rawgit.com/uwdata/visual-embedding/figures/f.svg>
+<img width="400" src=https://rawgit.com/uwdata/visual-embedding/tree/master/figures/f.svg?raw=true>
 <figure>
 <figcaption>Figure 1</figcaption>
 </figure>

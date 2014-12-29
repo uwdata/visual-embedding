@@ -17,8 +17,8 @@ with crowdsourcing, in our more [recent paper](http://idl.cs.washington.edu/pape
 
 What is Visual Embedding?
 =========================
-Although researchers have proposed numerous guidelines and heuristics, a formal framework for design and evaluation is still elusive.
-Instead, conducting a posteriori user studies is still the primary tool for assessing a visualization’s effectiveness. Using theoretical
+Visual embedding is an operational model for automated visualization design and evaluation. Although researchers have proposed numerous guidelines
+and heuristics, a formal framework for design and evaluation is still elusive. Instead, conducting a posteriori user studies is still the primary tool for assessing a visualization’s effectiveness. Using theoretical
 models presents another, albeit less explored, approach. Model-based approaches that integrate perceptual considerations into design
 process in a measurable, data-driven form can accelerate visual design and the complement summative nature of user studies.
 
@@ -38,8 +38,10 @@ We claim a visualization is “good” if the embedded visual elements preserve 
 present in the data domain. A function meeting this criterion constitutes a visual embedding of
 the data points (see Figure 1).
 
-<figure>
+![](figures/f.svg?raw=true)
+
 <img width="400" src=figures/f.svg?raw=true,render=true>
+<figure>
 <figcaption>Figure 1</figcaption>
 </figure>
 
@@ -129,8 +131,9 @@ used errant ratings of identical polygon pairs to filter
 each participant’s ratings and averaged the
 ratings across the users. Finally, we normalized the
 averaged ratings and accumulated the results in a
-distance matrix. Figure 5 shows the task interface
-and resulting perceptual-distance matrix.
+distance matrix. Figure 5 shows the resulting
+perceptual-distance matrix and its two-dimensional
+projection.
 
 <figure>
 <img width="400" src="figures/k.svg">
@@ -175,7 +178,7 @@ diffusion tensors (Figure 7).
 
 You can think a second-order diffusion tensor as the covariance
 matrix of a three-dimensional Gaussian distribution. So, superquadrics
-and cuboids, together 3D position, can also be seen as glyphs
+and cuboids, together with 3D position, can also be seen as glyphs
 for visualizing three-dimensional Gaussian distributions.
 
 We rotated the diagonal tensor D = [2.1 0 0; 0 2 0; 0 0 1]
@@ -258,7 +261,7 @@ by [S. Card](http://en.wikipedia.org/wiki/Stuart_Card), T. P. Moran and [A. Newe
 
 Moving On
 =========
-The examples above are intended to be only a proof of concept, including our approach for estimating
+The visual embedding examples above are intended to be only a proof of concept, including our approach for estimating
 perceptual distance through crowdsourcing. Visualizations live in context; crowdsourcing-based estimated
 perceptual distances can’t capture all the perceptual interactions of every context. Also, running large-scale
 crowdsourcing studies can be difficult. Because we used a small discrete space, we could present every pair of embedding-space

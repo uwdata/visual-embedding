@@ -38,10 +38,9 @@ We claim a visualization is “good” if the embedded visual elements preserve 
 present in the data domain. A function meeting this criterion constitutes a visual embedding of
 the data points (see Figure 1).
 
-![](figures/f.svg?raw=true)
 
-<img width="400" src=https://rawgit.com/uwdata/visual-embedding/tree/master/figures/f.svg?raw=true>
 <figure>
+<img width="400" src=http://uwdata.github.io/perceptual-kernels/ve/figures/f.svg>
 <figcaption>Figure 1</figcaption>
 </figure>
 
@@ -104,7 +103,7 @@ points’ spatial proximity was redundantly encoded
 via the assigned polygons’ perceptual proximity.
 
 <figure>
-<img width="400" src="figures/vp.svg">
+<img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/vp.svg">
 <figcaption>Figure 3</figcaption>
 </figure>
 
@@ -136,7 +135,7 @@ perceptual-distance matrix and its two-dimensional
 projection.
 
 <figure>
-<img width="400" src="figures/k.svg">
+<img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/k.svg">
 <figcaption>Figure 5</figcaption>
 </figure>
 
@@ -148,7 +147,7 @@ in a Markov random field (an undirected graphical model) to find an
 embedding of a simple 2D point set in Vp. Figure 6 shows the result.
 
 <figure>
-<img width="400" src="figures/d.svg">
+<img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/d.svg">
 <figcaption>Figure 6</figcaption>
 <figure>
 
@@ -200,7 +199,7 @@ cuboids. This supports the visualization design
 choice motivating superquadrics.
 
 <figure>
-<img width=500 src="figures/gb.svg">
+<img width=500 src="http://uwdata.github.io/perceptual-kernels/ve/figures/gb.svg">
 <figcaption>Figure 8</figcaption>
 </figure>
 

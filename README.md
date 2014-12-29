@@ -8,7 +8,10 @@ at Vis'11).  We use this repository to share data and source code for visual emb
 In the paper, we provide three examples of visual embedding. You can reach the source code  used to generate
 these examples under [src/](src/) directory.  In order to demonstrate discrete visual embedding, we crowdsource perceptual
 distances using Amazon's Mechanical Turk service.  You can access the data and source code for the experiment under
-[src/mturkExperiments](src/mturkExperiments)  directory. Note that we extend upon this idea, the  idea of estimating kernels of perceptual similarity
+[src/mturkExperiments](src/mturkExperiments) directory. Also, we also provide the estimated perceptual distance matrix
+for the shapes shown in Figure 3  as a text file ([data/polygonKernel.txt](data/polygonKernel.txt)).
+
+Note that we extend upon this idea, the  idea of estimating kernels of perceptual similarity
 with crowdsourcing, in our more [recent paper](http://idl.cs.washington.edu/papers/perceptual-kernels/).
 
 
@@ -36,7 +39,7 @@ present in the data domain. A function meeting this criterion constitutes a visu
 the data points (see Figure 1).
 
 <figure>
-<img width="400" src="https://raw.githubusercontent.com/uwdata/visual-embedding/master/figures/f.svg?raw=true">
+<img width="400" src=figures/f.svg?raw=true>
 <figcaption>Figure 1</figcaption>
 </figure>
 

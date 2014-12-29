@@ -36,7 +36,7 @@ present in the data domain. A function meeting this criterion constitutes a visu
 the data points (see Figure 1).
 
 <figure>
-<img width="400" src=https://raw.githubusercontent.com/uwdata/visual-embedding/master/figures/f.svg>
+<img width="400" src="https://raw.githubusercontent.com/uwdata/visual-embedding/master/figures/f.svg?raw=true">
 <figcaption>Figure 1</figcaption>
 </figure>
 
@@ -50,11 +50,11 @@ perceptually similar values of visual variables (color, shape, etc.) and vice ve
 is, however,  that degrees of perceptual affinities between and within visual encoding variables are available to us.
 
 
-Visualizations Beyond Visualization
-------------------------------------
+Visualizations Beyond Visual Encoding
+-------------------------------------
 Orthodoxy of any kind has a paralyzing effect, quickly turning any--intellectual--landscape
 into a desert of new ideas. Data visualization is, more than anything else, a user experience
-production and, as such, eventually needs to embrace and utilize human sensing capacities fully.
+production and, as such, eventually needs to embrace and utilize human sensing  capacities fully.
 
 Embedding spaces, as discussed here,  needn’t be restricted to visual stimuli. They could be any perceptual
 channel or combinations  thereof, such as color, texture, shape, icon, tactile, and audio features. For example,

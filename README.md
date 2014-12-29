@@ -6,7 +6,7 @@ proposal] (http://hci.stanford.edu/~cagatay/projects/vismodel/TheoriesOfVisualiz
 at Vis'11).  We use this repository to share data and source code for visual embedding examples.
 
 In the paper, we provide three examples of visual embedding. You can reach the source code  used to generate
-these examples under [src/](https://github.com/uwdata/visual-embedding/master/src) directory.  In order to demonstrate discrete visual embedding, we crowdsource perceptual
+these examples under [src/](https://github.com/uwdata/visual-embedding/tree/master/src) directory.  In order to demonstrate discrete visual embedding, we crowdsource perceptual
 distances using Amazon's Mechanical Turk service.  You can access the data and source code for the experiment under
 [src/mturkExperiments](src/mturkExperiments)  directory. Note that we extend upon this idea, the  idea of estimating kernels of perceptual similarity
 with crowdsourcing, in our more [recent paper](http://idl.cs.washington.edu/papers/perceptual-kernels/).

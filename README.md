@@ -36,7 +36,7 @@ present in the data domain. A function meeting this criterion constitutes a visu
 the data points (see Figure 1).
 
 <figure>
-<img width="400" src="https://rawgit.com/uwdata/visual-embedding/figures/f.svg">
+<img width="400" src="https://rawgit.com/uwdata/visual-embedding/figures/f.svg?raw=true">
 <figcaption>Figure 1</figcaption>
 </figure>
 

@@ -39,7 +39,7 @@ present in the data domain. A function meeting this criterion constitutes a visu
 the data points (see Figure 1).
 
 <figure>
-<img width="400" src=figures/f.svg?raw=true>
+<img width="400" src=figures/f.svg>
 <figcaption>Figure 1</figcaption>
 </figure>
 

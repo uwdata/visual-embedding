@@ -6,7 +6,7 @@ proposal] (http://hci.stanford.edu/~cagatay/projects/vismodel/TheoriesOfVisualiz
 at Vis'11). In the paper, we provide three examples of visual embedding. This repository contains the [data](data/) and
 [source code](src/)  used to generate these examples.  In order to [demonstrate discrete visual embedding](#scatter-plotting-with-shapes)
 we crowdsource perceptual distances using Amazon's Mechanical Turk service.  You can access the data and source code for
-our experiments as well under [src/mturkExperiments](src/mturkExperiments) directory. We also provide the estimated perceptual
+our experiments as well, under [src/mturkExperiments](src/mturkExperiments) directory. We also provide the estimated perceptual
 distance matrix for the shapes shown in Figure 3  as a text file ([data/polygonKernel.txt](data/polygonKernel.txt)).
 Note that we extend upon this idea, the idea of estimating kernels of perceptual similarity
 with crowdsourcing, in our [recent paper](http://idl.cs.washington.edu/papers/perceptual-kernels/).

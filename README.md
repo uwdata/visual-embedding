@@ -138,13 +138,15 @@ projection.
 <a href=http://uwdata.github.io/perceptual-kernels/view/vp-l7.html>
 <img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/k.svg">
 </a>
+
 <figcaption>
 Figure 5
 </figcaption>
+
 </figure>
 
 [Click](http://uwdata.github.io/perceptual-kernels/view/vp-l7.html)
-to see an interactive version of the distance matrix.
+on the figure to see an interactive version of the distance matrix.
 
 We then posed the embedding problem as maximum a posteriori estimation
 in a Markov random field (an undirected graphical model) to find an

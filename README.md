@@ -3,12 +3,12 @@ visual-embedding
 We have recently proposed [visual embedding](http://idl.cs.washington.edu/papers/visual-embedding/)
 as an operational model for automatically generating and evaluating visualizations (see also [our original
 proposal] (http://hci.stanford.edu/~cagatay/projects/vismodel/TheoriesOfVisualization-Vis11.pdf) presented
-at Vis'11). In the paper, we provide three examples of visual embedding. You can reach the data and source code  used to generate
-these examples under [src/](src/) directory.  In order to demonstrate discrete visual embedding, we crowdsource perceptual
-distances using Amazon's Mechanical Turk service.  You can access the data and source code for the experiment under
-[src/mturkExperiments](src/mturkExperiments) directory. Also, we also provide the estimated perceptual distance matrix
-for the shapes shown in Figure 3  as a text file ([data/polygonKernel.txt](data/polygonKernel.txt)).
-Note that we extend upon this idea, the  idea of estimating kernels of perceptual similarity
+at Vis'11). In the paper, we provide three examples of visual embedding. We use this repository to share the [data](data/) and
+[source code](src/)   used to generate these examples under directory.  In order to demonstrate discrete visual embedding,
+we crowdsource perceptual distances using Amazon's Mechanical Turk service.  You can access the data and source code for
+our experiments under [src/mturkExperiments](src/mturkExperiments) directory. Also, we also provide the estimated perceptual
+distance matrix for the shapes shown in Figure 3  as a text file ([data/polygonKernel.txt](data/polygonKernel.txt)).
+Note that we extend upon this idea, the idea of estimating kernels of perceptual similarity
 with crowdsourcing, in our [recent paper](http://idl.cs.washington.edu/papers/perceptual-kernels/).
 
 
@@ -18,6 +18,7 @@ Visual embedding is an operational model for automated visualization design and 
 and heuristics, a formal framework for design and evaluation is still elusive. Instead, conducting a posteriori user studies is still the primary tool for assessing a visualization’s effectiveness. Using theoretical
 models presents another, albeit less explored, approach. Model-based approaches that integrate perceptual considerations into design
 process in a measurable, data-driven form can accelerate visual design and the complement summative nature of user studies.
+
 
 An Operational Framework for Visualization
 ------------------------------------

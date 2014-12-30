@@ -10,9 +10,8 @@ these examples under [src/](src/) directory.  In order to demonstrate discrete v
 distances using Amazon's Mechanical Turk service.  You can access the data and source code for the experiment under
 [src/mturkExperiments](src/mturkExperiments) directory. Also, we also provide the estimated perceptual distance matrix
 for the shapes shown in Figure 3  as a text file ([data/polygonKernel.txt](data/polygonKernel.txt)).
-
 Note that we extend upon this idea, the  idea of estimating kernels of perceptual similarity
-with crowdsourcing, in our more [recent paper](http://idl.cs.washington.edu/papers/perceptual-kernels/).
+with crowdsourcing, in our [recent paper](http://idl.cs.washington.edu/papers/perceptual-kernels/).
 
 
 What is Visual Embedding?
@@ -39,10 +38,9 @@ present in the data domain. A function meeting this criterion constitutes a visu
 the data points (see Figure 1).
 
 
-<figure>
 <img width="600" src=http://uwdata.github.io/perceptual-kernels/ve/figures/f.svg>
-<figcaption>Figure 1</figcaption>
-</figure>
+<p>Figure 1. Visual embedding is a function that preserves structures in the data (domain)
+within the embedded perceptual space (range).</p>
 
 
 Perceptual Painting of Data Relations
@@ -74,15 +72,17 @@ perceptual tasks.
 
 Coloring Neural Tracts
 -----------------------
-We colored neural-fiber pathways estimated from a diffusion-imaging brain dataset. Given a set of tracts, we first
-computed distances (or dissimilarities) between pairs of pathways. To do this, we used a simple measure that
-quantified the similarity of two given neural pathways’ trajectories. We then constructed the visualization function
-by embedding the distances  in the CIELAB color space using multidimensional scaling. Figure 2 shows the obtained
-colorings; perceptual variations in color reflect the spatial variations in the tracts.
-<figure>
-<img width="600" src="figures/t.png">
-<figcaption>Figure 2</figcaption>
-</figure>
+Our first example is coloring neural-fiber pathways estimated from a diffusion-imaging brain dataset. Given a set of tracts, we first
+compute distances (or dissimilarities) between pairs of pathways. To do this, we use a simple measure that
+quantifies the similarity of two given neural pathways’ trajectories. We then construct the visualization function
+by embedding the distances in the [CIELAB](http://en.wikipedia.org/wiki/Lab_color_space) color space using multidimensional scaling.
+Figure 2 shows the obtained colorings; perceptual variations in color reflect the spatial variations in the tracts.
+
+<img width="700" src="figures/t.png">
+<p>Figure 2. Coloring neural tracts: (left) the internal capsule and (right) the corpus callosum. We colored them
+using visual embedding in CIELAB, a perceptually uniform color space. Perceptual variations in color reflect the spatial
+variations in the tracts.</p>
+
 
 Scatter Plotting  With Shapes
 ------------------------------------
@@ -102,26 +102,23 @@ icons from the discrete polygonal-shape space Vp
 points’ spatial proximity was redundantly encoded
 via the assigned polygons’ perceptual proximity.
 
-<figure>
 <img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/vp.svg">
-<figcaption>Figure 3</figcaption>
-</figure>
+<p>Figure 3. A palette of polygonal shapes.</p>
 
 Though simple, this setup is realistic: redundant visual
 encoding is common in visualization. Alternatively,
 we could have used icons to convey attributes
 of other dimensions of the data points.
-Unlike the coloring example, here we lacked a
+Unlike the coloring example, here we lack a
 perceptual model for estimating perceived distance.
-So, we obtained a crowdsourced estimate of the perceptual
+So, we first obtained a crowdsourced estimate of the perceptual
 distances between the elements of Vp, using
 Amazon’s Mechanical Turk (Figure 4).
 
 
-<figure>
 <img width="300" src="figures/m.png">
-<figcaption>Figure 4</figcaption>
-</figure>
+<p>Figure 4. The task interface of our crowdsourcing experiment on
+Amazon’s Mechanical Turk website. </p>
 
 The study participants
 saw all possible pairs, including identical ones. We
@@ -134,25 +131,23 @@ distance matrix. Figure 5 shows the resulting
 perceptual-distance matrix and its two-dimensional
 projection.
 
-<figure>
 <a href=http://uwdata.github.io/perceptual-kernels/view/vp-l7.html>
 <img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/k.svg">
 </a>
-<p>Figure 5</p>
+<p>Figure 5. (Left) Estimated perceptual-distance matrix. Darker colors indicate closer distances.
+(Right) Two-dimensional projection of the shapes based on the distance matrix.</p>
 
-</figure>
 
 [Click](http://uwdata.github.io/perceptual-kernels/view/vp-l7.html)
 on the figure to see an interactive version of the distance matrix.
 
-We then posed the embedding problem as maximum a posteriori estimation
-in a Markov random field (an undirected graphical model) to find an
-embedding of a simple 2D point set in Vp. Figure 6 shows the result.
+After estimating the perceptual-distance matrix, we  pose the embedding problem
+as maximum a posteriori estimation in a Markov random field (an undirected graphical model)
+to find an embedding of a simple 2D point set in Vp. Figure 6 shows the result.
 
-<figure>
 <img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/d.svg">
-<figcaption>Figure 6</figcaption>
-</figure>
+<p>Figure 6. Visual embedding in a discrete visual space. We embed the planar data points in Vp.
+The shape assignment reflects the data points’ spatial variation and clustering.</p>
 
 The polygonal primitive assignment reflects the data points’ clustering,
 as we desired.
@@ -167,31 +162,31 @@ descriptive.
 
 With our model, given suitable data and perceptual
 metrics, we can assess competing visualization
-techniques’ structure-preserving qualities.
-
-We compared superquadrics and cuboids, two
+techniques’ structure-preserving qualities. Here, we compare
+[superquadrics](http://en.wikipedia.org/wiki/Superquadrics)
+and [cuboids](http://en.wikipedia.org/wiki/Cuboid), two
 alternative glyphs used in visualizing second-order
 diffusion tensors (Figure 7).
 
-<figure>
 <img width=600 src=figures/ga.png>
-<figcaption>Figure 7</figcaption>
-</figure>
+<p>Figure 7. A superquadric and a cuboid glyph, used for visualizing the same tensor field.
+The insets represent the diagonal tensor <a href='#tensor'><b>D</b></a>.</p>
 
 You can think a second-order diffusion tensor as the covariance
 matrix of a three-dimensional Gaussian distribution. So, superquadrics
 and cuboids, together with 3D position, can also be seen as glyphs
 for visualizing three-dimensional Gaussian distributions.
 
-We rotated the diagonal tensor D = [2.1 0 0; 0 2 0; 0 0 1]
+We conduct a simple experiment: We rotate the diagonal
+tensor <b id='tensor'>D</b> = [2.1 0 0; 0 2 0; 0 0 1]
 around its smallest eigenvector (0, 0, 1) with five
-incremental degrees. We computed how the tensor
-value changed as the Euclidean distance between
+incremental degrees. We compute how the tensor
+value changes as the Euclidean distance between
 the reference tensor and the rotated tensor
-changed. We approximated the perceptual change
+changes. We approximate the perceptual change
 in the corresponding glyph visualizations with
 the sum of the magnitudes of the optical flow at
-each pixel in the image domain. We averaged the
+each pixel in the image domain. We average the
 optical-flow distances over nine viewpoints uniformly
 sampled on a circumscribed sphere under
 fixed lighting and rendering conditions.
@@ -201,10 +196,12 @@ represented the change in the data more faithfully
 cuboids. This supports the visualization design
 choice motivating superquadrics.
 
-<figure>
 <img width=500 src="http://uwdata.github.io/perceptual-kernels/ve/figures/gb.svg">
-<figcaption>Figure 8</figcaption>
-</figure>
+<p>Figure 8. Changes in the size of <a href='#tensor'><b>D</b></a> and its superquadric
+and cuboid representations  with respect to rotations around the tensor’s smallest eigenvector.
+The tensor size  and the superquadric glyph’s appearance follow a similar trend; the cuboid glyph’s
+appearance differs. This suggests that superquadric glyphs better preserved the
+structure in the data.</p>
 
 Background
 ===========

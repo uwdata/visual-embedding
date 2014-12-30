@@ -116,7 +116,7 @@ distances between the elements of Vp, using
 Amazon’s Mechanical Turk (Figure 4).
 
 
-<img width="300" src="figures/m.png">
+<img width="400" src="figures/m.png">
 <p>Figure 4. The task interface of our crowdsourcing experiment on
 Amazon’s Mechanical Turk website. </p>
 

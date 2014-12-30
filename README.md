@@ -3,10 +3,10 @@ visual-embedding
 We have recently proposed [visual embedding](http://idl.cs.washington.edu/papers/visual-embedding/)
 as an operational model for automatically generating and evaluating visualizations (see also [our original
 proposal] (http://hci.stanford.edu/~cagatay/projects/vismodel/TheoriesOfVisualization-Vis11.pdf) presented
-at Vis'11). In the paper, we provide three examples of visual embedding. We use this repository to share the [data](data/) and
-[source code](src/)   used to generate these examples under directory.  In order to demonstrate discrete visual embedding,
+at Vis'11). In the paper, we provide three examples of visual embedding. This repository contains the [data](data/) and
+[source code](src/)  used to generate these examples.  In order to [demonstrate discrete visual embedding](#scatter-plotting-with-shapes)
 we crowdsource perceptual distances using Amazon's Mechanical Turk service.  You can access the data and source code for
-our experiments under [src/mturkExperiments](src/mturkExperiments) directory. Also, we also provide the estimated perceptual
+our experiments as well under [src/mturkExperiments](src/mturkExperiments) directory. We also provide the estimated perceptual
 distance matrix for the shapes shown in Figure 3  as a text file ([data/polygonKernel.txt](data/polygonKernel.txt)).
 Note that we extend upon this idea, the idea of estimating kernels of perceptual similarity
 with crowdsourcing, in our [recent paper](http://idl.cs.washington.edu/papers/perceptual-kernels/).
@@ -83,8 +83,8 @@ using visual embedding in CIELAB, a perceptually uniform color space. Perceptual
 variations in the tracts.</p>
 
 
-Scatter Plotting  With Shapes
-------------------------------------
+Scatter Plotting With Shapes
+-------------------------------
 In the above example, the visual space,  CIELAB, is a subspace
 of the continuous three space. Embedding in continuous spaces is
 relatively well studied, thanks partly to the fact that

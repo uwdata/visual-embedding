@@ -136,7 +136,7 @@ projection.
 <p>Figure 5. (Left) Estimated perceptual-distance matrix. Darker colors indicate closer distances.
 (Right) Two-dimensional projection of the shapes based on the distance matrix.
 (<a href=http://uwdata.github.io/perceptual-kernels/view/vp-l7.html>Click</a> on the figure to see
-an interactive version of the distance matrix.)</p>
+an interactive version of the distance matrix and its projection.)</p>
 
 
 After estimating the perceptual-distance matrix, we  pose the embedding problem

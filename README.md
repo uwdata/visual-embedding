@@ -139,9 +139,7 @@ projection.
 <img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/k.svg">
 </a>
 
-<figcaption>
 Figure 5
-</figcaption>
 
 </figure>
 

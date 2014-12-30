@@ -55,7 +55,7 @@ Visualizations Beyond Visual Encoding
 -------------------------------------
 Orthodoxy of any kind has a paralyzing effect, quickly turning any-intellectual-landscape
 into a desert of new ideas. Data visualization is, more than anything else, a user experience
-production and, as such, eventually needs to embrace and utilize human sensing capacities fully.
+production and, as such, eventually needs to embrace and utilize all human sensing capacities.
 
 Embedding spaces, as discussed here,  needn’t be restricted to visual stimuli. They could be any perceptual
 channel or combinations  thereof, such as color, texture, shape, icon, tactile, and audio features. For example,

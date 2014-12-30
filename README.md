@@ -4,7 +4,7 @@ We have recently proposed [visual embedding](http://idl.cs.washington.edu/papers
 as an operational model for automatically generating and evaluating visualizations (see also [our original
 proposal] (http://hci.stanford.edu/~cagatay/projects/vismodel/TheoriesOfVisualization-Vis11.pdf) presented
 at Vis'11). In the paper, we provide three examples of visual embedding. This repository contains the [data](data/) and
-[source code](src/)  used to generate these examples.  In order to [demonstrate discrete visual embedding](#scatter-plotting-with-shapes)
+[source code](src/)  used to generate these examples.  In order to [demonstrate discrete visual embedding](#scatter-plotting-with-shapes),
 we crowdsource perceptual distances using Amazon's Mechanical Turk service.  You can access the data and source code for
 our experiments as well, under [src/mturkExperiments](src/mturkExperiments) directory. We also provide the estimated perceptual
 distance matrix for the shapes shown in Figure 3  as a text file ([data/polygonKernel.txt](data/polygonKernel.txt)).
@@ -55,7 +55,7 @@ Visualizations Beyond Visual Encoding
 -------------------------------------
 Orthodoxy of any kind has a paralyzing effect, quickly turning any-intellectual-landscape
 into a desert of new ideas. Data visualization is, more than anything else, a user experience
-production and, as such, eventually needs to embrace and utilize all human sensing capacities.
+production and, as such, needs to embrace and utilize all human sensing capacities eventually.
 
 Embedding spaces, as discussed here,  needn’t be restricted to visual stimuli. They could be any perceptual
 channel or combinations  thereof, such as color, texture, shape, icon, tactile, and audio features. For example,

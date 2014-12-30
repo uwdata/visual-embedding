@@ -138,8 +138,7 @@ projection.
 <a href=http://uwdata.github.io/perceptual-kernels/view/vp-l7.html>
 <img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/k.svg">
 </a>
-
-Figure 5
+<p>Figure 5</p>
 
 </figure>
 

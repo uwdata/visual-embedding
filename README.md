@@ -134,12 +134,14 @@ distance matrix. Figure 5 shows the resulting
 perceptual-distance matrix and its two-dimensional
 projection.
 
-<div>
 <figure>
+<a href=http://uwdata.github.io/perceptual-kernels/view/vp-l7.html>
 <img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/k.svg">
-<figcaption>Figure 5</figcaption>
+</a>
+<figcaption>
+Figure 5
+</figcaption>
 </figure>
-</div>
 
 [Click](http://uwdata.github.io/perceptual-kernels/view/vp-l7.html)
 to see an interactive version of the distance matrix.

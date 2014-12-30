@@ -40,7 +40,7 @@ the data points (see Figure 1).
 
 
 <figure>
-<img width="400" src=http://uwdata.github.io/perceptual-kernels/ve/figures/f.svg>
+<img width="600" src=http://uwdata.github.io/perceptual-kernels/ve/figures/f.svg>
 <figcaption>Figure 1</figcaption>
 </figure>
 
@@ -119,7 +119,7 @@ Amazon’s Mechanical Turk (Figure 4).
 
 
 <figure>
-<img width="400" src="figures/m.png">
+<img width="300" src="figures/m.png">
 <figcaption>Figure 4</figcaption>
 </figure>
 
@@ -134,13 +134,15 @@ distance matrix. Figure 5 shows the resulting
 perceptual-distance matrix and its two-dimensional
 projection.
 
+<div>
 <figure>
 <img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/k.svg">
 <figcaption>Figure 5</figcaption>
 </figure>
+</div>
 
 [Click](http://uwdata.github.io/perceptual-kernels/view/vp-l7.html)
-to see an interactive version of the distance matrix obtained.
+to see an interactive version of the distance matrix.
 
 We then posed the embedding problem as maximum a posteriori estimation
 in a Markov random field (an undirected graphical model) to find an
@@ -149,7 +151,7 @@ embedding of a simple 2D point set in Vp. Figure 6 shows the result.
 <figure>
 <img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/d.svg">
 <figcaption>Figure 6</figcaption>
-<figure>
+</figure>
 
 The polygonal primitive assignment reflects the data points’ clustering,
 as we desired.

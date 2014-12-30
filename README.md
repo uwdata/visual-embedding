@@ -132,11 +132,12 @@ perceptual-distance matrix and its two-dimensional
 projection.
 
 <a href=http://uwdata.github.io/perceptual-kernels/view/vp-l7.html>
-<img width="600" src="http://uwdata.github.io/perceptual-kernels/ve/figures/k.svg">
+<img width="500" src="http://uwdata.github.io/perceptual-kernels/ve/figures/k.svg">
 </a>
 <p>Figure 5. (Left) Estimated perceptual-distance matrix. Darker colors indicate closer distances.
-(Right) Two-dimensional projection of the shapes based on the distance matrix. ([Click](http://uwdata.github.io/perceptual-kernels/view/vp-l7.html)
-on the figure to see an interactive version of the distance matrix.)</p>
+(Right) Two-dimensional projection of the shapes based on the distance matrix.
+(<a href=http://uwdata.github.io/perceptual-kernels/view/vp-l7.html>Click</a> on the figure to see
+an interactive version of the distance matrix.)</p>
 
 
 After estimating the perceptual-distance matrix, we  pose the embedding problem
@@ -144,7 +145,7 @@ as maximum a posteriori estimation in a Markov random field (an undirected graph
 to find an embedding of a simple 2D point set in Vp. Figure 6 shows the result, where the shape
 assignment reflects the data points’ clustering, as we desired.
 
-<img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/d.svg">
+<img width="600" src="http://uwdata.github.io/perceptual-kernels/ve/figures/d.svg">
 <p>Figure 6. Visual embedding in a discrete visual space. We embed the planar data points in Vp.
 The shape assignment reflects the data points’ spatial variation and clustering.</p>
 

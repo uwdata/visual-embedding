@@ -1,10 +1,7 @@
 function C = flatTorusColoring(coord, sensitivity) 
 %
-% flatTorusColoring - Colors given 2D coords by mapping the 
-%                     bounding plane onto a flat torus.     
-%                     Lab interval (a cubic region) 
-%                     [45 95 -50 70 -20 70] where points 
-%                     are embedded   
+% flatTorusColoring - Colors given 2D coords by embedding them 
+%                     on a flat torus in the CIELAB color space.    
 %                   
 %
 % INPUT 

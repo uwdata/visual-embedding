@@ -4,7 +4,7 @@ function  nodes = computeBeliefs(nodes)
 % File  : computeBeliefs.m
 % Author: Cagatay Demiralp (cad)
 % Desc  : Update beliefs in BP. Adapted from Bil Freeman's toy MRF 
-% 	      example code.  
+% 	      example.  
 %
 % 	Input  : nodes - N x 1 cell containing the MRF graph with N nodes.   
 %

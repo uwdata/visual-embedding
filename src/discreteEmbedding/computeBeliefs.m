@@ -14,7 +14,6 @@ function  nodes = computeBeliefs(nodes)
 % 	Example: 
 %
 % Date    : Sat Mar 17 17:42:22 2012
-% Modified: $Id$
 %
 %
 if (nargin~=1)

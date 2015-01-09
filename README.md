@@ -146,7 +146,7 @@ The shape assignment reflects the data points’ spatial variation and clusterin
 Evaluating Tensor Glyphs
 -------------------------
 Can we evaluate visualizations without running user studies?
-Models, of any sort, are particularly useful if they provide
+Models, of any sort, are particularly useful if they have 
 predictive and evaluative power, going beyond being
 descriptive.
 

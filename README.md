@@ -229,7 +229,7 @@ provide a fast-track solution while the latter may lead to a better understandin
 (for example, luminance or shape perception) and then optimizing for some perceptual
 goal according to that model. Visual embedding can be viewed as a reusable template within
 van Wijk’s discussion on perceptually optimal visualizations. If we chose a motto for visual
-embedding, it would be “visualization as a perceptual painting of structure in data.” In this sense, visual
+embedding, it would be “<em>visualization as a perceptual painting of structure in data</em>.” In this sense, visual
 embedding’s perceptual-structure preservation criterion closes the cycle, explicitly linking Mackinlay’s
 expressiveness and effectiveness criteria while providing a recipe to achieve both.
 

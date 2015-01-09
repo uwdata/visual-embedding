@@ -206,8 +206,7 @@ language. He argued that good visualizations will meet the criteria of expressiv
 effectiveness. A visualization meets the expressiveness criterion if it faithfully presents
 the data, without implying false inferences. Effectiveness concerns how accurately viewers
 can decode the chosen visual-encoding variables; it’s informed by prior studies in graphical
-perception (for example,
-([by William Cleveland and Robert McGill](http://www.jstor.org/discover/10.2307/2288400?sid=21104938778461&uid=3739256&uid=2&uid=3739808&uid=4)).
+perception (for example, [by William Cleveland and Robert McGill](http://www.jstor.org/discover/10.2307/2288400?sid=21104938778461&uid=3739256&uid=2&uid=3739808&uid=4)).
  Mackinlay’s APT ([A Presentation Tool](http://www2.parc.com/istl/groups/uir/publications/items/UIR-1986-02-Mackinlay-TOG-Automating.pdf))
 employed a composition algebra over a basis set of graphical primitives derived from Bertin’s
 encodings to generate alternative visualizations. The system then selected the visualization that

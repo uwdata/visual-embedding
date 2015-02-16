@@ -17,7 +17,7 @@ What is Visual Embedding?
 Visual embedding is an operational model for automated visualization design and evaluation. Although researchers have proposed numerous guidelines
 and heuristics, a formal framework for design and evaluation is still elusive. Instead, conducting a posteriori user studies is still the primary tool for assessing a visualization’s effectiveness. Using theoretical
 models presents another, albeit less explored, approach. Model-based approaches that integrate perceptual considerations into design
-process in a measurable, data-driven form can accelerate visual design and the complement summative nature of user studies.
+process in a measurable, data-driven form can accelerate visual design and complement summative nature of user studies.
 
 
 An Operational Framework for Visualization

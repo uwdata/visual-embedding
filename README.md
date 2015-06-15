@@ -237,7 +237,7 @@ three elements: 1) Perceptual stimuli (visual encoding, chart size, chart type, 
 2) data visualized  and 3) the cognitive state of user, of which task is part.
 To this end, we recommend close reading of the following three classics:
 
-+ [Eye and Brain: The Psychology of Seeing](http://www.amazon.com/Eye-Brain-Richard-L-Gregory/dp/0691048371) by [R. L. Gregory](http://en.wikipedia.org/wiki/Richard_Gregory)
++ [Eye and Brain: The Psychology of Seeing](http://www.amazon.com/Eye-Brain-Richard-L-Gregory/dp/0691048371) by [R. L. Gregory](http://en.wikipedia.org/wiki/Richard_Gregory)---useful to contrast it with [J. J. Gibson](http://en.wikipedia.org/wiki/James_J._Gibson)'s approach to visual perception), 
 
 + [Semiology of Graphics: Diagrams, Networks, Maps](http://www.amazon.com/Semiology-Graphics-Diagrams-Networks-Maps/dp/1589482611) by [J. Bertin](http://en.wikipedia.org/wiki/Jacques_Bertin),
 

@@ -51,7 +51,7 @@ is, however,  that degrees of perceptual affinities between and within visual en
 
 Visualizations Beyond Visual Encoding
 -------------------------------------
-Data visualization is, more than anything else, a user experience production and, as such, needs to embrace and utilize all human sensing capacities eventually. Embedding spaces, as discussed here,  needn’t be restricted to visual stimuli. They could be any perceptual channel or combinations  thereof, such as color, texture, shape, icon, tactile, and audio features. For example, we could, in theory, apply our formulation  to construct  sonifications for people with visual disabilities.
+Data visualization is, more than anything else, a user experience production and, as such, needs to embrace and utilize all human sensing capacities eventually. Embedding spaces, as discussed here,  need not to be restricted to visual stimuli. They could be any perceptual channel or combinations  thereof, such as color, texture, shape, icon, tactile, and audio features. For example, we could, in theory, apply our formulation  to construct  sonifications for people with visual disabilities.
 
 
 Examples of Visual Embedding

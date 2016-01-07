@@ -220,7 +220,8 @@ to user ratings. In contrast to this empirical approach, [Daniel Pineo and Colin
 computational model of the retina and primary visual cortex to automatically
 evaluate and optimize visualizations](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5728805). These two
 works represent two  antipodal approaches to automated visualization. The former probably
-provides a fast-track solution while the latter may lead to a better understanding.
+provides a fast-track engineering solution while the latter may lead to a better understanding of how 
+visualizations work perceptually and cognitively. 
 
 [Jarke van Wijk argued](http://link.springer.com/chapter/10.1007/b106657_18) for first modeling a perceptual domain
 (for example, luminance or shape perception) and then optimizing for some perceptual

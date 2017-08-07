@@ -2,10 +2,10 @@ visual-embedding
 ================
 We have recently proposed [visual embedding](http://idl.cs.washington.edu/papers/visual-embedding/)
 as an operational model for automatically generating and evaluating visualizations (see also [our original
-proposal] (http://hci.stanford.edu/~cagatay/projects/vismodel/TheoriesOfVisualization-Vis11.pdf) presented
+proposal](http://hci.stanford.edu/~cagatay/projects/vismodel/TheoriesOfVisualization-Vis11.pdf) presented
 at Vis'11). In the paper, we provide three examples of visual embedding. This repository contains the [data](data/) and
 [source code](src/)  used to generate these examples.  In order to [demonstrate discrete visual embedding](#scatter-plotting-with-shapes),
-we crowdsource perceptual distances using Amazon's Mechanical Turk service.  You can access the data and source code for our crowdsourcing experiments in [src/mturkExperiments](src/mturkExperiments).  We also provide the resulting  perceptual distance matrix for the shapes shown in Figure 3  as a text file ([data/polygonKernel.txt](data/polygonKernel.txt)).
+we crowdsource perceptual distances using Amazon's Mechanical Turk service.  You can access the data and source code for our crowdsourcing experiments in [src/mturkExperiments](src/mturkExperiments).  We also provide the resulting  perceptual distance matrix for the shapes shown in Figure 4  as a text file ([data/polygonKernel.txt](data/polygonKernel.txt)).
 Note that we extend upon this idea of learning kernels of perceptual similarity
 using crowdsourcing in our [recent paper](http://idl.cs.washington.edu/papers/perceptual-kernels/).
 
@@ -53,6 +53,16 @@ Visualizations Beyond Visual Encoding
 -------------------------------------
 Data visualization is, more than anything else, a user experience production and, as such, needs to embrace and utilize all human sensing capacities eventually. Embedding spaces, as discussed here,  need not to be restricted to visual stimuli. They could be any perceptual channel or combinations  thereof, such as color, texture, shape, icon, tactile, and audio features. For example, we could, in theory, apply our formulation  to construct  sonifications for people with visual disabilities.
 
+What about Interaction? 
+=======================
+Visual embedding can also be useful in modeling an important class of interactions that couple data with its visual 
+representation so that when users interactively change one, they can observe a corresponding change in the other. This 
+class of interactions, which we call _dynamic visualization interactions_, is important for running what-if analyses on data by directly modifying the data 
+attributes or instances and their visualizations. Visual embedding immediately gives us criteria on which dynamic interactions should be considered effective (Figure 2): 1) a change in data (e.g., induced by user through direct manipulation) should cause a proportional change in its visual representation and 2) a perceptual change in a visual encoding value (e.g., by dragging nodes in a scatter plot or changing the height of a bar in a bar chart) should be reflected by a change in data value that is proportional to the perceived change. However, to enable a dynamic interaction on a visualization, we need to have access to both the visualization function f and its inverse f<sup>-1</sup>. The visual embedding model also clearly suggests when implementing back mapping (f<sup>-1</sup>) to the data space can be challenging. See the penultimate section of our recent [paper](https://arxiv.org/pdf/1707.04281.pdf) for more on this. 
+
+<img width="600" src=figures/ve_extended.png>
+<p>Figure 2. Visual embedding can be also useful for modeling <em>dynamic visualization interactions</em>. Dynamic visualization interactions bidirectionally couple data and its visual encoding. The goal is to enable users to   
+"experiment" by dynamically changing the visualizations and attribute values of a dataset (see, e.g., <a href=https://vimeo.com/6707698>Media for Thinking the Unthinkable</a>, <a href=https://vimeo.com/64895205>Stop Drawing Dead Fish</a>, <a href=http://ieeexplore.ieee.org/abstract/document/6875985/>DimpVis</a> for further motivation). Under the visual embedding model, a dynamic visualization interaction is considered effective if 1) a change in data induced by the interaction causes a proportional perceptual change in the visual encoding of data and 2) a change in the visual encoding due to the interaction is reflected by a change in data value that is proportional to the perceived change in the visual encoding. </p>
 
 Examples of Visual Embedding
 ===============================================
@@ -67,10 +77,10 @@ Our first example is coloring neural-fiber pathways estimated from a diffusion-i
 compute distances (or dissimilarities) between pairs of pathways. To do this, we use a simple measure that
 quantifies the similarity of two given neural pathways’ trajectories. We then construct the visualization function
 by embedding the distances in the [CIELAB](http://en.wikipedia.org/wiki/Lab_color_space) color space using multidimensional scaling.
-Figure 2 shows the obtained colorings; perceptual variations in color reflect the spatial variations in the tracts.
+Figure 3 shows the obtained colorings; perceptual variations in color reflect the spatial variations in the tracts.
 
 <img width="700" src="figures/t.png">
-<p>Figure 2. Coloring neural tracts: (left) the internal capsule and (right) the corpus callosum. We colored them
+<p>Figure 3. Coloring neural tracts: (left) the internal capsule and (right) the corpus callosum. We colored them
 using visual embedding in CIELAB, a perceptually uniform color space. Perceptual variations in color reflect the spatial
 variations in the tracts.</p>
 
@@ -89,12 +99,12 @@ function is discrete?
 Here, a toy problem demonstrates embedding in a
 discrete visual space. We want to assign polygonal
 icons from the discrete polygonal-shape space Vp
-(Figure 3) to a given set of 2D points so that the
+(Figure 4) to a given set of 2D points so that the
 points’ spatial proximity was redundantly encoded
 via the assigned polygons’ perceptual proximity.
 
 <img width="400" src="http://uwdata.github.io/perceptual-kernels/ve/figures/vp.svg">
-<p>Figure 3. A palette of polygonal shapes.</p>
+<p>Figure 4. A palette of polygonal shapes.</p>
 
 Though simple, this setup is realistic: redundant visual
 encoding is common in visualization. Alternatively,
@@ -104,11 +114,11 @@ Unlike the coloring example, here we lack a
 perceptual model for estimating perceived distance.
 So, we first obtained a crowdsourced estimate of the perceptual
 distances between the elements of Vp, using
-Amazon’s Mechanical Turk (Figure 4).
+Amazon’s Mechanical Turk (Figure 5).
 
 
 <img width="400" src="figures/m.png">
-<p>Figure 4. The task interface of our crowdsourcing experiment on
+<p>Figure 5. The task interface of our crowdsourcing experiment on
 Amazon’s Mechanical Turk website. </p>
 
 The study participants
@@ -118,14 +128,14 @@ used errant ratings of identical polygon pairs to filter
 each participant’s ratings and averaged the
 ratings across the users. Finally, we normalized the
 averaged ratings and accumulated the results in a
-distance matrix. Figure 5 shows the resulting
+distance matrix. Figure 6 shows the resulting
 perceptual-distance matrix and its two-dimensional
 projection.
 
 <a href=http://uwdata.github.io/perceptual-kernels/view/vp-l7.html>
 <img width="600" src="http://uwdata.github.io/perceptual-kernels/ve/figures/k.svg">
 </a>
-<p>Figure 5. (Left) Estimated perceptual-distance matrix. Darker colors indicate closer distances.
+<p>Figure 6. (Left) Estimated perceptual-distance matrix. Darker colors indicate closer distances.
 (Right) Two-dimensional projection of the shapes based on the distance matrix.
 (<a href=http://uwdata.github.io/perceptual-kernels/view/vp-l7.html>Click</a> on the figure to see
 an interactive version of the distance matrix and its projection.)</p>
@@ -133,11 +143,11 @@ an interactive version of the distance matrix and its projection.)</p>
 
 After estimating the perceptual-distance matrix, we  pose the embedding problem
 as maximum a posteriori estimation in a Markov random field (an undirected graphical model)
-to find an embedding of a simple 2D point set in Vp. Figure 6 shows the result, where the shape
+to find an embedding of a simple 2D point set in Vp. Figure 7 shows the result, where the shape
 assignment reflects the data points’ clustering, as we desired.
 
 <img width="600" src="http://uwdata.github.io/perceptual-kernels/ve/figures/d.svg">
-<p>Figure 6. Visual embedding in a discrete visual space. We embed the planar data points in Vp.
+<p>Figure 7. Visual embedding in a discrete visual space. We embed the planar data points in Vp.
 The shape assignment reflects the data points’ spatial variation and clustering.</p>
 
 
@@ -154,10 +164,10 @@ techniques’ structure-preserving qualities. Here, we compare
 [superquadrics](http://en.wikipedia.org/wiki/Superquadrics)
 and [cuboids](http://en.wikipedia.org/wiki/Cuboid), two
 alternative glyphs used in visualizing second-order
-diffusion tensors (Figure 7).
+diffusion tensors (Figure 8).
 
 <img width=600 src=figures/ga.png>
-<p>Figure 7. A superquadric and a cuboid glyph, used for visualizing the same tensor field.
+<p>Figure 8. A superquadric and a cuboid glyph, used for visualizing the same tensor field.
 The insets represent the diagonal tensor <a href='#tensor'><b>D</b></a>.</p>
 
 You can think a second-order diffusion tensor as the covariance
@@ -178,14 +188,14 @@ each pixel in the image domain. We average the
 optical-flow distances over nine viewpoints uniformly
 sampled on a circumscribed sphere under
 fixed lighting and rendering conditions.
-The trends in Figure 8 suggest that superquadrics
+The trends in Figure 9 suggest that superquadrics
 represented the change in the data more faithfully
 (that is, preserved the structure better) than
 cuboids. This supports the visualization design
 choice motivating superquadrics.
 
 <img width=500 src="http://uwdata.github.io/perceptual-kernels/ve/figures/gb.svg">
-<p>Figure 8. Changes in the size of <a href='#tensor'><b>D</b></a> and its superquadric
+<p>Figure 9. Changes in the size of <a href='#tensor'><b>D</b></a> and its superquadric
 and cuboid representations  with respect to rotations around the tensor’s smallest eigenvector.
 The tensor size  and the superquadric glyph’s appearance follow a similar trend; the cuboid glyph’s
 appearance differs. This suggests that superquadric glyphs better preserved the

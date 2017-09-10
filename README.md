@@ -53,7 +53,7 @@ Visualizations Beyond Visual Encoding
 -------------------------------------
 Data visualization is, more than anything else, a user experience production and, as such, needs to embrace and utilize all human sensing capacities eventually. Embedding spaces, as discussed here,  need not to be restricted to visual stimuli. They could be any perceptual channel or combinations  thereof, such as color, texture, shape, icon, tactile, and audio features. For example, we could, in theory, apply our formulation  to construct  sonifications for people with visual disabilities.
 
-What about Interaction? 
+What About Interaction? 
 =======================
 Visual embedding can also be useful in modeling an important class of interactions that couple data with its visual 
 representation so that when users interactively change one, they can observe a corresponding change in the other. This 
@@ -62,7 +62,7 @@ attributes or instances and their visualizations. Visual embedding immediately g
 
 <img width="600" src=figures/ve_extended.png>
 <p>Figure 2. Visual embedding can be also useful for modeling <em>dynamic visualization interactions</em>. Dynamic visualization interactions bidirectionally couple data and its visual encoding. The goal is to enable users to   
-"experiment" by dynamically changing the visualizations and attribute values of a dataset (see, e.g., <a href=https://vimeo.com/6707698>Media for Thinking the Unthinkable</a>, <a href=https://vimeo.com/64895205>Stop Drawing Dead Fish</a>, <a href=http://ieeexplore.ieee.org/abstract/document/6875985/>DimpVis</a> for further motivation). Under the visual embedding model, a dynamic visualization interaction is considered effective if 1) a change in data induced by the interaction causes a proportional perceptual change in the visual encoding of data and 2) a change in the visual encoding due to the interaction is reflected by a change in data value that is proportional to the perceived change in the visual encoding. </p>
+"experiment" by dynamically changing the visualizations and attribute values of a dataset (see, e.g., <a href=https://vimeo.com/6707698>Media for Thinking the Unthinkable</a>, <a href=https://vimeo.com/64895205>Stop Drawing Dead Fish</a>, <a href=http://ieeexplore.ieee.org/abstract/document/6875985/>DimpVis</a> for further motivation). </p>
 
 Examples of Visual Embedding
 ===============================================
